@@ -50,6 +50,7 @@ for i in range(len(k)):
 for i in range(len(l)):
     untemp.append(decrypter[l[i]])              #decrypting the encrypted message
 
+print("The decoded message is :")
 for i in range(len(untemp)):
     print(untemp[i],end="")                     #printing the actual message
 
